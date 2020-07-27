@@ -1,0 +1,1 @@
+Config files for [collaborative-notes-app-backend](https://github.com/DenPeshkov/collaborative-notes-app-backend)

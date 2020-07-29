@@ -1,0 +1,12 @@
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*" # actuator endpoints
+server:
+  port: 8761 # port on which service starts
+
+eureka:
+  client:
+    register-with-eureka: false # do not register eureka server with itself
+    fetch-registry: false # do not fetch registry

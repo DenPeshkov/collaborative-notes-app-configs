@@ -1,8 +1,3 @@
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*" # actuator endpoints
 server:
   port: 8761 # port on which service starts
 

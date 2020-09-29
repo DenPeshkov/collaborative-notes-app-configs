@@ -3,3 +3,5 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka # eureka server url
+    healthcheck:
+      enabled: true # enable health check

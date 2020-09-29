@@ -1,7 +1,2 @@
 server:
   port: 9000 # port on which service starts
-
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka # eureka server url

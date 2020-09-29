@@ -13,3 +13,6 @@ spring:
   jackson:
     serialization:
       indent_output: true # pretty print JSON responses
+
+server:
+  shutdown: graceful # enable graceful shutdown

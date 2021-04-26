@@ -1,0 +1,2 @@
+server:
+  port: 8754 # port on which service starts
